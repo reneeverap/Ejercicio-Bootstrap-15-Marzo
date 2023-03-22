@@ -1,0 +1,258 @@
+<!--Templete de la sección quickstart de bootstrap-->
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="autor" content="Natalia Renee Vera Pedrin ">
+    <meta name="description" content="Mi primer ejercicio con Bootstrap">
+    <meta name="keywords" content="Bootstrap, bootstrap 5.3, framework, html, css, maquetación">
+    <title>Mi primer ejercicio con Bootstrap - Cholula</title>
+    <!--La hoja de estilo de Bootstrap se enlaza con un CDN proporcinado por Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!--Cuando añadimos holas de estilo es importante colocarlas despues de la hoja de estilo de Bootstrap -->
+    <link href="CSS/#estilos.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <!--En Bootstrap trabajamos con tres tipos de contendedor-->
+    <div class="container principal">
+      <div class="row">
+        <div class="col-12">
+
+      <h1>Cholula</h1>
+   
+    <p>Este Pueblo Mágico de Puebla te sorprenderá con los restos de una antigua (y enorme) pirámide prehispánica que, después de la Conquista, sirvió como sustento para el Templo Los Remedios.</p>
+    <blockquote> Entre un gran templo prehispánico e iglesias coloniales</blockquote>
+    <p>Cholula -formado por los poblados de San Andrés Cholula y San Pedro Cholula- recibe al visitante con una imagen única en México y el mundo: una estructura piramidal cubierta por follaje y coronada por una iglesia virreinal, custodiadas por el volcán Popocatépetl. En este Pueblo Mágico muy cercano a la ciudad de Puebla destacan sus múltiples templos de la época de la Colonia (tantos que, se dice, hay uno por cada día del año), así como su exquisita gastronomía, su fina talavera y el agradable ambiente de provincia.</p>
+    <!--Bootstrap nos permite ajustar imagenes-->
+    <img src="IMG/cholula1.png" alt="Cholula" class="img-fluid rounded mx-auto d-block">
+  </div>
+ </div>
+ <!--Inicia row-->
+ <div class="row">
+  <div class="col-12">
+
+    <h2>Conoce más</h2>
+    <p>Fue fundada por grupos toltecas que fueron exiliados de Tula cerca del año 500 a.C., lo que la convierte en una de las poblaciones vivas más antiguas de América. Posteriormente los cholultecas fueron tributarios de los mexicas, pero se distinguieron históricamente por su ánimo independiente.
+     <p>Cholula también es conocida por ser escenario de uno de los episodios más cruentos de la Conquista. En 1519 las fuerzas de Hernán Cortés, que habían sido recibidas por los locales, cometieron la infame Matanza de Cholula pues sospechaban una emboscada. Se calcula que murieron hasta 6,000 cholultecas, la mayoría de ellos civiles.</p>
+    </div>
+    </div>
+    <!--Inicia row-->
+    <div class="row">
+      <div class="col-7">
+        <h2>Lo típico</h2> 
+        <p>Compra talavera en el Taller de Talavera de la Reyna, donde conservan las técnicas de trabajo del siglo XVI aplicadas a diseños contemporáneos. Las piezas van desde azulejos, platos y vajillas, hasta jarrones, floreros, macetas y cazuelas.</p>
+        <br>
+        <p>San Pedro Cholula se destaca por su alfarería de barro rojo, los árboles de la vida y las vajillas. Debido a las festividades religiosas a lo largo del año, Cholula también es conocida por la manufactura de artículos pirotécnicos como toritos, cascadas y castillos. Puedes conseguir estos productos en el Centro Artesanal, Cultural y Gastronómico Xelhua.</p>
+        <br><br>
+        <h2>Sabías qué</h2>
+        <p>Hay tantas iglesias y templos en Cholula que se dice que hay uno por cada día del año</p>
+       </div>
+
+      <div class=col-5>
+        <img src="IMG/cholula2.png" alt="Cholula" class="img-fluid rounded mx-auto d-block">
+      </div>
+
+      <!--Inicia row-->
+      <!--Colocamos cuatro columnas y colocaremos el contenido en formato de cards-->
+   <div class="row">
+    <h2>Atractivos</h2>
+    <!--En este ejemplo aplicamos tres clases para las columnas que funcionarán para el responsive.-->
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <!--Incia contenido de cards-->
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Gran Pirámide de Cholula</h5>
+          <p class="card-text">Su nombre original en náhuatul es Tlachihualteptl, que significa “cerro hecho a mano”. Esta pirámide tiene la base más grande del mundo: 400 metros por lado. Sobre la pirámide se yergue el Santuario de la Virgen de los Remedios, cuya cúpula está cubierta por talavera típica de la región. La zona arqueológica cuenta con un Museo de Sitio, en que se dan pormenores sobre la historia de la pirámide y la iglesia a lo largo de tres salas. Te recomendamos acceder a la zona arqueológica a través de los misteriosos túneles.</p>
+          <a href="#" class="btn btn-primary">Conozca más</a>
+        </div>
+      </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12"">
+    <!--Inicia contenido de cards-->
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Capilla Real de Cholula</h5>
+        <p class="card-text">Es otro ejemplo de un lugar de culto católico construido sobre un recinto sagrado prehispánico. Esta edificación fue erigida con mano de obra indígena sobre lo que solía ser el templo de Quetzalcóatl. Cabe mencionar que la estructura sigue algunos preceptos de la cosmología prehispánica; las siete naves que van de oriente a poniente, por ejemplo, representan a Chicomecoatl, la Madre Tierra. La Fiesta del Pueblo, celebrada el domingo anterior a Pentecostés, sigue siendo en su honor. En la pila bautismal, que data del siglo XVI, aún puede apreciarse un calendario indígena.</p>
+        <a href="#" class="btn btn-primary">Conozca más</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12"">  
+    <!--Inicia contenido de cards-->
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Convento de San Gabriel</h5>
+        <p class="card-text">Se ubica en el centro del poblado y es uno de los templos más antiguos del país, ya que se remonta a 1549. Frente a este complejo franciscano se encuentra la Parroquia de San Pedro Cholula, gran ejemplo de la arquitectura religiosa colonial, con una cúpula de estilo churrigueresco. En el interior se descubre una pintura de Cristóbal de Villalpando que muestra a San Miguel Arcángel con traje de guerrero.</p>
+        <a href="#" class="btn btn-primary">Conozca más</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6 col-sm-12"">
+    <!--Inicia contenido de cards-->
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Casa del Caballero Águila</h5>
+        <p class="card-text"><p>Nombrada así por el bajorrelieve que flanquea su entrada principal. Su planta baja data del siglo XVI y la alta del XVII. Actualmente aloja al Museo de la Ciudad de Cholula, con seis salas donde se exhiben alrededor de 2,300 piezas prehispánicas y virreinales. Vale la pena visitarlo no sólo por la obra expuesta, sino también porque se encuentra en el edificio civil hispano más antiguo de Cholula.
+          <p>Hay un tranvía que puedes tomar en la Caseta de Atención Turística 1, en las esquinas de las avenidas Hidalgo y Miguel Alemán. El recorrido pasa por Tonanzintla, la Capilla Real y la plaza central.</p></p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+  </div>
+   </div>
+   <!--Inicia row-->
+   <div class="row">
+
+   </div>
+   <h2>Alrededores</h2>
+<h3>Chipilo</h3>
+<p>Este poblado, de de evidente influencia italiana, se encuentra a aproximadamente media hora en auto (unos 18 kilómetros). Ahí podrás disfrutar de quesos, miel y carnes frías de producción artesanal.</p>
+<br>
+<h3>Tonanzintla</h3>
+<p>El “lugar de nuestra madrecita”, se encuentra apenas a cuatro kilómetros al sur de Cholula. Vale la pena visitar la iglesia de Santa María Tonanzintla, una joya del barroco mexicano. En el interior del templo hay una cúpula repleta de figuras de niños con motivos indígenas como penachos, frutas, mazorcas y cuernos de la abundancia. La nave está decorada con chapa de oro. Además, este poblado ofrece una vista espectacular del volcán Popocatépetl, así como cielos llenos de estrellas (no por nada la localidad es sede del Observatorio Astrofísico Nacional de Tonanzintla).</p>
+<br>
+<h2>Fiestas y eventos</h2>
+<p>Del 1 al 8 de septiembre se lleva a cabo la fiesta de la Virgen de los Remedios, la más importante para los cholultecas. Hay danzas rituales con grupos de concheros, ofrendas para la virgen y quema de panzones (grandes estructuras de cartón con forma humana). Tras la veneración a la virgen, los peregrinos realizan un trueque de productos como queso, frutas, ocote, incienso y nueces de la región. Es una manifestación cultural que data de tiempos prehispánicos y que vale la pena atestiguar.</p>
+<br>
+<div class="row">
+<h2>Gastronomía/Dónde comer</h2>
+<p>Cholula cuenta con una buena oferta gastronómica que va desde las tiendas gourmet hasta restaurantes de cadenas internacionales. Pero nada como beber una cerveza y comer botanas típicas en la plaza principal. Entre los platillos de la región se encuentran la sopa cholulteca (a base de poro, tocino y pollo), la cecina con rajas, los gusanos conocidos como “cueclas” y las “orejas de elefante”, tortillas de grandes dimensiones rellenas con frijoles y coronadas con salsa, queso y cebolla.
+<br>
+<p>No puedes irte sin desayunar en el mercado. Los lugareños utilizan ingredientes frescos para preparar antojitos típicos como sopes y quesadillas, así como sin comer mole poblano.</p>
+<!--Estilos para listas: https://getbootstrap.com/docs/5.3/content/typography/#lists-->
+<ul>
+  <li>
+    Ocho 30 (internacional)
+    3 Poniente No. 101-A.
+  </li>
+  <li>
+    El Zapata (regional)
+  12 Oriente, esquina 2 Norte.
+    </li>
+    <li>
+      La Lunita (regional)
+  Av. Morelos Norte No. 419, esquina 6.
+     </li>
+</ul>
+</div>
+
+  <!--Inicia row-->
+  <div class="row">
+      <h2>Dónde dormir</h2>
+    <ul>
+      <li> Villas Arqueológicas
+        2 Poniente No. 601, San Andrés.<br>
+        <a href="http://www.villasarquelogicas.com.mx" target="_blank">www.villasarquelogicas.com.mx</a>
+      </li>
+
+      <li> Estrella de Belem, Bed & Breakfast & Spa
+        2 Oriente No. 410, Centro, San Pedro.<br>
+        <a href="www.estrelladebelem.com" target="_blank">www.estrelladebelem.com</a>
+      </li>
+      <li> Hotel Las Iglesias
+        7 Sur No. 501, San Pedro.<br>
+        <a href="www.hotelasiglesias.com.mx" target="_blank">www.hotelasiglesias.com.mx</a>
+      </li>
+    </ul>
+    </div>
+    </p>
+    <br>
+    <!--Inicia row-->
+    <div class="row">
+    <h2>Cómo llegar</h2>
+   
+    <!--Las tablas son uno de los elementos más importantes en HTML, los primeros sitios se estructuraban con esa base, actualmente se utilizan etiquetas de contenedores
+    como div, section o article entre otras pero las tablas se siguen utilizando para visualización de contenidos tabulares -->
+    
+    <!--Bootstrap da varias opciones de clases que podemos encontrar en http://getbootstrap.com/docs/5.3/content/tables/ -->
+   
+    <!--Para hacer la tabla responsiva colocamos un contenedor y a este le aplicamos la clase .table-responsive. Tmb se
+    puede indicar el tamaño del dispositivo en el que se va a aplicar-->
+    
+    <div class="table-responsive-sm">
+    <table class="table table-striped-columns table-bordered table-sm table-hover">
+      <!--La etiqueta thead indica el encabezado de la página. th indica cada una de las celdas del encabezado, la cantidad de 
+      etiquetas th indicará la cantidad de columnas de la tabla-->
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Camión</th>
+          <th scope="col">Avión</th>
+          <th scope="col">Auto</th>
+        </tr>
+      </thead>
+      <!--La etiqueta tbody indica el cuerpo de la tabla. La etiqueta tr indica una fila. La cantidad de etiquetas tr indicará
+      cantidad de filas que tenga una tabla. Del mismo modo que la etiqueta td indica una celda y la cantidad de etiquetas td
+    indicará la cantidad de columnas de la tabla.-->
+      <tbody class="table-group-divider">
+        <tr>
+          <th scope="row">Tiempo</th>
+          <td>2 hrs</td>
+          <td>-</td>
+          <td>1 hr 30 min</td>
+        </tr>
+        <tr>
+          <th scope="row">Costo</th>
+          <td>$700</td>
+          <td>-</td>
+          <td>$500</td>
+        </tr>
+        <tr>
+          <th scope="row">Corridas</th>
+          <td>3 al día</td>
+          <td>-</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+  </table>
+</div>
+</div>
+
+<!--Inicia row-->
+<div class="row">
+  <h2>Solicita más información</h2>
+  <!--Formulario https://getbootstrap.com/docs/5.3/forms/overview/-->
+  <form>
+    <!--Label=campo. Input se refiere al campo donde se va a ingresar la info. Existen varios tipos de input dependiendo del 
+    tipo de contenido, en este caso usamos text, y en el siguiente email. Para más info: https://www.w3schools.com/html/html_forms.asp-->
+    <div class="mb-3">
+      <label class="form label">Nombre completo</label>
+      <input type="text" class="form-control" placeholder="Escribe tu nombre completo">
+      <div id="emailHelp" class="form-text">Escribe tu nombre incluyendo apellidos</div>
+    </div>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail" class="form-label">Correo electrónico</label>
+      <input type="email" class="form-control" id="exampleInputEmail" aria-describedby="emailHelp " placeholder="Escribe tu nombre completo">
+      <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie</div>
+    </div>
+
+   <div class="mb-3">
+      <label class="form-label">Indica el tipo de información que necesitas</label>
+      <textarea class="form-control" placeholder="Describe la información que necesites"></textarea>
+    </div>
+
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1">Acepto políticas</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Enviar</button>
+  </form>
+</div>
+
+  <!--Bootstrap proporciona estilos para los botones, basta colocar la clase .btn en un hipervínculo para que se le asignen
+  estilos de botón. También se debe colocar alguna clase de los diferentes estilos disponibles o crear una clase nueva. Los estilos
+  los encontramos en http://getbootstrap.com/docs/5.3/components/buttons/-->
+    <a href="#" class="btn btn-secondary>Volver arriba</a>"
+  </div>
+  <!--El archivo JS también se enlaza por medio de un CDN proporcionado por Bootstrap.
+  Los recursos de JS se colocan antes de cerrar la etiqueta body para evitar que la página tarde en cargar el contenido-->
+  <script src="http://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bnudle.min.js"
+  integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <h1>Volver arriba</h1>
+ </body>
+</html>
